@@ -1,0 +1,5 @@
+Rom build commands
+
+Patch
+
+for file in device/samsung/universal9810-common/patches/*.patch; do patch -p1 < "${file}"; done
